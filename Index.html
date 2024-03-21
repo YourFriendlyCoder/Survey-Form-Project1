@@ -7,7 +7,8 @@
 >Survey Form</h1>
     <p id="description">A survey for in a HTML form.</p>
     <form id="survey-form">
-
+    <fieldset id="Info">
+      <legend>Enter your Name, Password and Phone Number here.</legend>
       <label id="name-label">
       <input required id="name" type="text" placeholder="Name" />
       </label>
@@ -17,8 +18,24 @@
       <label id="number-label">
       <input required id="number" type="number" min="0" max="9" placeholder="Phone Number" />
       </label>
-      
-      
+    </fieldset>
+     <label>
+      <fieldset id="select-menu">
+        <legend>How Did You Hear about Us?</legend>
+        <select id="dropdown">
+          <option id="Search">Internet Search</option>
+          <option id="Social Media">Social Media Post</option>
+          <option id="Friend/Family">Friend/Family</option>
+        </select>
+      </fieldset>
+     </label>
+      <label>
+        <fieldset>
+          <legend>Are you reviewing as a personal account, or business?</legend>
+         <label for="personal"><input type="radio" id="personal" required checked name="Personal" /></label>
+         <label for="business"><input type="radio" id="business" required name="Business" /></label>
+        </fieldset>
+      </label>
     </form>
   </body>
 </html>
