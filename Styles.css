@@ -1,1 +1,40 @@
+body {
+  background-color: #01263a;
+font-family: Garamond, serif;
+color: white;
+}
 
+h1, p {
+  text-align: center;
+  margin: 1em auto;
+}
+
+form {
+  margin: 0 auto;
+  width: 60vw;
+  min-width: 300px;
+  max-width:500px;
+}
+
+fieldset {
+  border: none;
+  border-bottom: 3px solid;
+  padding: 2rem 0;
+}
+
+input {
+  background-color: #043959;
+border: solid 1px;
+border-color: #043959;
+color: white;
+}
+
+input,textarea, select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+textarea {
+  min-height: 5em;
+}
